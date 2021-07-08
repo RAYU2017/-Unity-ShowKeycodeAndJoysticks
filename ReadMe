@@ -1,0 +1,5 @@
+Step1 Create a new Unity project
+Step2 Set [ProjectSetting=>Input] (reference Input參數設定.PNG)
+Step3 Add Script (reference ShowKeycodeAndJoysticks.cs)
+
+*Check XBoxGamepad (reference xbox搖桿對照.png)
