@@ -31,13 +31,5 @@ public class ShowKeycodeAndJoysticks : MonoBehaviour
             else Description = "A" + i + ":";
             transform.GetChild(i).GetComponent<Text>().text = Description + Input.GetAxis("A" + i);
         }
-        //RV = Input.GetAxis("RightV");//5th axis(JoySticks)
-        //RH = Input.GetAxis("RightH");//4th axis(JoySticks)
-        //LH = Input.GetAxis("Horizontal");//X axis
-        //LV = Input.GetAxis("Vertical");//V axis
-        //LT = Input.GetAxis("LT");//9th axis(JoySticks)
-        //RT = Input.GetAxis("RT");//10th axis(JoySticks)
-        //DPad_Horizontal = Input.GetAxis("PDADH");//6th axis(JoySticks)
-        //DPad_Vertical = Input.GetAxis("PDADV");//7th axis(JoySticks)
     }
 }
