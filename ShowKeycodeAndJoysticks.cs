@@ -7,7 +7,7 @@ public class ShowKeycodeAndJoysticks : MonoBehaviour
     {
         if (Input.anyKeyDown)
         {
-            for (int i = 0; i <= 509; i++)
+            for (int i = 0; i <= 509; i++)//Find all Keycode
             {
                 if (Input.GetKeyDown((KeyCode)i))
                     transform.GetChild(0).GetComponent<Text>().text = "KeyCode:" + ((KeyCode)i).ToString();
