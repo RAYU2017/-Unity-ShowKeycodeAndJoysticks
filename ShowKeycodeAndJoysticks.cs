@@ -11,8 +11,6 @@ public class ShowKeycodeAndJoysticks : MonoBehaviour
         {
             for (int i = 0; i <= 509; i++)
             {
-                //if (i >= 1 && i <= 7 || i == 10 || i == 11 || i >= 14 && i <= 18 || i >= 20 && i <= 26 || i >= 28 && i <= 31 || i >= 65 && i <= 90 || i >= 128 && i <= 255 || i >= 297 && i <= 299
-                //    || i == 314 || i >= 320 && i <= 322) return;
                 if (Input.GetKeyDown((KeyCode)i))
                     transform.GetChild(0).GetComponent<Text>().text = "KeyCode:" + ((KeyCode)i).ToString();
             }
