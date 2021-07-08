@@ -1,3 +1,7 @@
+So far we have demonstrated that keybord,mouse and Xbox Gamepad can get parameters. 
+
+You can create a Application for get devices parameter.
+
 Step1 Create a new Unity project.
 
 Step2 Setting 28 Input parameters,only "Axis" will change.[ProjectSetting=>Input] 
