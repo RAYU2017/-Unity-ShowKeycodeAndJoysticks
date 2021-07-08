@@ -1,9 +1,13 @@
-Step1 Create a new Unity project
-Step2 Setting parameters [ProjectSetting=>Input] 
+Step1 Create a new Unity project.
+
+Step2 Setting 28 Input parameters,only "Axis" will change.[ProjectSetting=>Input] 
 (reference https://github.com/RAYU2017/Unity_ShowKeycodeAndJoysticks/blob/main/Input%E5%8F%83%E6%95%B8%E8%A8%AD%E5%AE%9A.PNG)
-Step3 Add Script 
+
+Step3 Create "Canvas" and create 29 "Text"s in subtyping ,final add this "Script".
 (reference https://github.com/RAYU2017/Unity_ShowKeycodeAndJoysticks/blob/main/ShowKeycodeAndJoysticks.cs)
 
-*Introduction about Xbox Gamepad 
+*Introduction about Xbox gamepad buttons.
 (reference https://github.com/RAYU2017/Unity_ShowKeycodeAndJoysticks/blob/main/xbox%E6%90%96%E6%A1%BF%E5%B0%8D%E7%85%A7.png)
-EXE Download：https://drive.google.com/file/d/1qte_QzEoFsefA35vshmhu8NH1g6Aojgu/view?usp=sharing
+
+*Demo exe Download：https://drive.google.com/file/d/1qte_QzEoFsefA35vshmhu8NH1g6Aojgu/view?usp=sharing
+I hope it can help you get parameter on some different devices.
